@@ -40,4 +40,8 @@ RCT_EXPORT_METHOD(randomBytes:(NSUInteger)length
     };
 };
 
++ (BOOL)requiresMainQueueSetup {
+    return YES;
+}
+
 @end

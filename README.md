@@ -3,7 +3,7 @@
 ## Usage
 
 ```js
-var randomBytes = require('react-native-secure-randombytes')
+import { randomBytes } from 'react-native-randombytes'
 
 // asynchronous API
 // uses iOS-side SecRandomCopyBytes
