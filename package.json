@@ -1,10 +1,14 @@
 {
   "name": "react-native-secure-randombytes",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "randomBytes for react-native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WoeOm/react-native-secure-randombytes.git"
   },
   "keywords": [
     "react-component",
