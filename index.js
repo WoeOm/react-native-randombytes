@@ -17,7 +17,7 @@ export function randomBytes (length, cb) {
   })
 }
 
-export function asyncRandomBytes (length, cb) {
+export function asyncRandomBytes (length) {
   return new Promise((resolve, reject) => {
     randomBytes(length,(err, bytes)=>{
         if(err) {
